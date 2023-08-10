@@ -11,7 +11,7 @@
     <li><a href="#table">테이블</a></li>
     <li><a href="#data-aggregation">데이터 집계</a></li>
     <li><a href="#pivot-and-card">피벗 테이블 및 카드 시각화</a></li>
-    <li><a href="#slider-and-filter">슬라이더 및 시각화 필터</a></li>
+    <li><a href="#slider-and-filter">슬라이 및 시각화 필터</a></li>
     <li><a href="#custom-calculation">맞춤 계산</a></li>
     <li><a href="#case-study">사례 연구</a></li>
     <li><a href="#time-series-graph">시계열 그래프</a></li>
@@ -355,6 +355,33 @@ Data.csv는 열은 다음과 같다.
 <div id="slider-and-filter">
 
 ## 5. 슬라이더 및 시각화 필터
+
+1.슬라이더 및 시각화 필터 소개
+
+
+
+2.텍스트 슬라이더
+
+
+
+3.숫자 슬라이더
+
+
+
+4.날짜 슬라이더
+
+
+
+5.텍스트 시각화 필터
+
+
+
+6.숫자 시각화 필터
+
+
+
+7.날짜 시각화 필터
+
 
 
 

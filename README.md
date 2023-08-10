@@ -305,12 +305,56 @@ Data.csv는 열은 다음과 같다.
 
 ## 4. 피벗 테이블 및 카드 시각화
 
+1) 피벗 테이블 및 스코어카드 소개
+
+피벗 테이블은 구글 스튜디오에서 데이터를 요약하고 분석하는 데 유용한 도구로, 여러 데이터 포인트를 쉽게 비교하고 파악할 수 있게 해준다 스코어카드는 구글 스튜디오의 시각화 도구 중 하나로, 중요한 통계나 정보를 강조해서 한 눈에 볼 수 있게 표시하는 역할을 한다 이렇게 해서, 둘 다 구글 스튜디오에서 데이터를 효과적으로 전달하고 분석하는 데 큰 도움이 됩니다
+
+
+2) 피벗 테이블 만들기
+
+![Google_Studio_Table11](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c713d30c-c5be-43a9-b538-c9baccfde474)
+
+이 이미지는 피벗 테이블의 기본 구조를 보여줍니다. 행과 열을 기준으로 데이터가 어떻게 분류되고 집계되는지 한눈에 확인할 수 있
+
+3) 비교 계산
+
+![Google_Studio_Table9](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/99cf3474-ae6b-4070-a7c0-2a2d874a8ea7)
+
+비교 계산은 데이터 간의 차이나 증감을 시각적으로 표현하여 데이터의 변화나 트렌드를 파악하는 데 도움을 줄 수 있다.
+
+4) 카드 시각화
+
+![Google_Studio_Table10](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/dd8b7ad9-c018-432d-8edc-c91b3440c2bc)
+
+카드 시각화는 특정 지표나 값을 강조하여 보여주는 도구입니다. 주요 통계나 중요한 데이터 포인트를 강조해서 표시할 때 유용하다.
+
+5) 실무 실습
+
+다음 카드 시각화 만들기
+
+* 매출액 합계
+
+* 평균 매출
+
+* 최고 판매
+
+* 최저가 판매
+
+* 판매된 제품 수
+
+* 제품이 판매된 국가 수
+
+* 제품 범주 및 채널별 이익
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/021de912-e08f-4d3f-9b76-16e6e321d656)
+
+이 이미지는 실무에서 사용할만한 데이터 시각화를 예시로 보여준다. 각 카드는 특정 지표에 중점을 둔 시각화로 구성되어 있습니다.
 
 </div>
 
-<div id="custom-calculation">
+<div id="slider-and-filter">
 
-## 5. 맞춤 계산
+## 5. 슬라이더 및 시각화 필터
 
 
 

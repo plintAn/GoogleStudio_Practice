@@ -50,27 +50,198 @@ Data.csv는 열은 다음과 같다.
 
 1.매출이 가장 높은 제조업체는 어디입니까?
 - 답변 - Fabrikam – 12,054,281
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9838ad10-3619-4ac6-b9e5-2cc33d99ca9f)
+
   
 2.이익 값이 가장 낮은 제품 범주는 무엇입니까?
 - 답변 - 오디오 – 577,270
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/7ee06038-7d78-4784-abfc-72c2cdf9d9cb)
+
   
 3.어느 제조업체가 가장 높은 이익을 얻었습니까?
 - 답변 - Fabrikam – 7,158,977
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c0dff7be-6080-4e88-9a57-96b3eee02f0b)
+
   
 4.판매 비용이 가장 높은 채널은 무엇입니까?
 - 답변 - 매장 – 13,671,368
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/e7b6b34b-5b74-430a-aeec-17630cda42dc)
+
   
 5.매출이 가장 높은 프로모션 이름은 무엇입니까?
 - 답변 - 할인 없음 – 18,329,360
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/b5fd68fb-7e95-4424-a577-05deb23b9d10)
+
   
 6.이익이 가장 높은 제품 하위 범주는 무엇입니까?
 - 답변 - 캠코더 – 4,972,853
 
 
-![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/3fe37658-42ec-4aab-b2ee-bb059a51feaf)
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8800c56f-6b67-4d7a-a743-844d1ab84830)
 
 
 
+### 3. 집계 방법
+
+1번째 테이블
+
+* 측정기준 : Manufactors
+* 측정항목 : Salses
+
+* SUM : Total Sales
+* AVG : Avg Sales
+* MIN : Lowest Sales
+* MAX : Highest Sales
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/336dc3f9-b910-4781-9969-f1b0c64496bd)
+
+
+
+2번테이블
+
+* 측정기준 : Product sub category
+* 측정항목 : Product Name
+
+* CT : No of Trans
+* CTS : No of Products
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/865e1a7d-ba65-47f2-b526-b741f7520bb4)
+
+
+2) 실무 집계 연습
+
+
+
+
+1. 제품 이름별 총 매출을 보여주는 새 테이블 만들기
+
+- 가장 높은 판매에서 가장 낮은 판매로 표를 정렬합니다. 가장 많이 팔린 제품은?
+
+- 답변 - Contoso 프로젝터 1080 P X980 검정 – 445,115
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/a1541996-7a73-4658-86a0-99ddf81500b6)
+
+2. 가장 낮은 매출에서 가장 높은 매출 순으로 표를 정렬합니다. 판매량이 가장 적은 제품은 무엇입니까?
+
+- Answer - SV USB 데이터 케이블 E 600 그레이 - 46
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c84b6d11-b183-4d57-96dc-a28143269899)
+
+
+3. 가장 많은 도시에서 판매되는 제품은 무엇입니까?
+
+- 답변 - Litware 홈 시어터 시스템 5.1 채널 M515 브라운 – 22
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/a95f6961-6359-4f77-b5b2-67ee8c259475)
+
+
+4. 국가별 총 매출을 보여주는 새 테이블 만들기
+
+- 요약 방법을 다음과 같이 변경합니다.
+
+- 평균 – 평균 매출이 가장 높은 국가는 어디입니까?
+
+- 답변 - 중국 – 4518
+
+- Min – 최소 매출이 가장 낮은 국가는 어디입니까?
+
+- 답변 - 중국, 싱가포르, 미국 - 5
+
+- Max – 최대 매출이 가장 높은 국가는 어디입니까?
+
+- 답변 - 미국 - 78312
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/91d02bb3-3df1-4d22-9919-42a41ac28cbd)
+
+
+5. 도시별 이익을 표시하는 새 테이블을 만듭니다.
+
+- 거래 건수가 가장 많은 도시는 어디입니까?
+
+- 답변 - 베이징 - 1398
+
+- 평균 이익이 가장 낮은 도시는 어디입니까?
+
+- 답변 - 베네치아 - 438
+
+- 가장 다양한 유형의 제품을 판매하는 도시
+
+- 답변 - 베이징 - 924
+  
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/fc0a0e27-7f60-48e2-97a8-b1f535f17555)
+
+
+
+
+3) 비교 계산
+
+
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/48589610-e299-4a5d-a2ac-5a6f28ded3c1)
+
+
+
+4) 누계 계산
+
+총계 백분율
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/69f6fdd6-0258-434d-b805-289af72c03b4)
+
+누계 백분율
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/826630e7-0052-4b50-a49e-e2463f0f1a66)
+
+하위 범주 누적 백분율
+
+![Google_Studio_Table5](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/6901b13c-1770-42b9-9690-d1ae8bd2b702)
+
+최솟값 비교
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/edc9befc-fc2a-488e-a563-01bc5eab5655)
+
+최댓값 비교
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/d1f7183b-5a92-433f-a791-ec397326c533)
+
+집계 비교
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9408ce4a-dd56-457c-9c45-df1cfb808930)
+
+평균 비교
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/fdd0516c-80b5-48fb-91a4-ebd0fdc3bb8f)
+
+델타 비교
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0256b15f-f418-4db8-9b92-6116ef50d97d)
+
+
+
+
+5) 드릴 다운 ( 교차 )
+
+Region >> County >> City
+
+![Google_Studio_Table6](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/2d3b3fcb-0765-47ef-82d6-8376a927bdaf)
+
+Asia >> South Korea >> Seoul
+
+![Google_Studio_Table7](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/1487db46-33a1-482a-85de-cd402eb9d371)
+
+
+
+6) 날짜 작업 ( 교차 )
+
+연도별, 분기별 정렬
+
+월, 요일별 정렬
+
+![Google_Studio_Table8](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/021a1d5c-7b70-4adc-a7d7-d3fb409a2a04)
 
 
 

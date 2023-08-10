@@ -11,7 +11,7 @@
     <li><a href="#table">테이블</a></li>
     <li><a href="#data-aggregation">데이터 집계</a></li>
     <li><a href="#pivot-and-card">피벗 테이블 및 카드 시각화</a></li>
-    <li><a href="#slider-and-filter">슬라이 및 시각화 필터</a></li>
+    <li><a href="#slider-and-filter">슬라이더 및 시각화 필터</a></li>
     <li><a href="#custom-calculation">맞춤 계산</a></li>
     <li><a href="#case-study">사례 연구</a></li>
     <li><a href="#time-series-graph">시계열 그래프</a></li>
@@ -346,7 +346,7 @@ Data.csv는 열은 다음과 같다.
 
 * 제품 범주 및 채널별 이익
 
-![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/021de912-e08f-4d3f-9b76-16e6e321d656)
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/eb25580f-7e92-4cf3-858c-7dae4c3d0037)
 
 이 이미지는 실무에서 사용할만한 데이터 시각화를 예시로 보여준다. 각 카드는 특정 지표에 중점을 둔 시각화로 구성되어 있습니다.
 
@@ -358,36 +358,87 @@ Data.csv는 열은 다음과 같다.
 
 1.슬라이더 및 시각화 필터 소개
 
+슬라이더와 시각화 필터는 Google Studio의 대시보드에서 데이터를 동적으로 탐색하고, 특정 조건 또는 값 범위에 따라 시각화를 업데이트하는 데 사용되는 컨트롤입니다. 이를 사용하면 사용자는 대시보드 내에서 원하는 데이터를 쉽게 선택하거나 필터링할 수 있습니다.
 
+![Google_Studio_Table12](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/753a4b27-15cf-4c7f-bedb-7d6d4c19d1db)
+
+위 이미지는 슬라이더와 시각화 필터의 기본 인터페이스를 보여주는데, 이 도구들은 Google Studio의 대시보드에서 데이터를 동적으로 탐색하고 조작하는 데 사용된다
 
 2.텍스트 슬라이더
 
+텍스트 슬라이더는 고정 크기 목록, 드롭 다운, 고급 필터와 같은 텍스트 기반의 값에 따라 데이터를 필터링하는 데 사용됩니다.
+
+컨트롤 추가 >> 고정 크기 목록, 드롭 다운, 고급 필터 추가
+
+![Google_Studio_Table13](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/db69f52c-4e5d-4bc1-96fd-eae50685360f)
+
+이 이미지는 텍스트 기반의 값에 따라 데이터를 필터링하는 텍스트 슬라이더의 예를 보여준다.
 
 
 3.숫자 슬라이더
 
+숫자 슬라이더는 특정 숫자 범위 내의 데이터를 선택하거나 필터링하는 데 사용된다
+
+컨트롤 추가 >> 슬라이더 추가
+
+![Google_Studio_Table14](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/d1ac907d-98cf-4a3f-aad5-38ed09147870)
+
+숫자 슬라이더 예시 이미지입니다. 사용자는 이 슬라이더를 조작하여 원하는 숫자 범위의 데이터를 쉽게 선택할 수 있다.
 
 
 4.날짜 슬라이더
 
+날짜 슬라이더는 특정 날짜 범위에 따라 데이터를 필터링하는 데 사용된다. 특히 특정 연도나 분기의 데이터만을 보고 싶을 때 사용할 수 있다.
+
+![Google_Studio_Table15](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/cfb462f3-8732-4c44-abbf-3b724a8fe219)
+
+특정 날짜 범위를 선택하여 데이터를 필터링할 수 있는 날짜 슬라이더의 예시
 
 
 5.텍스트 시각화 필터
 
+특정 문자 또는 단어로 시작하는 텍스트를 기반으로 데이터를 필터링한다. 예를 들어, 지역 이름이 'I' 또는 'O'로 시작하는 데이터만을 선택할 수 있습니다.
+
+I 또는 O로 시작하는 지역 이름 필터
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9d455d8b-57af-4e12-8aad-1481c67b3db0)
+
+결과
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/ebbe0051-5845-4d88-abc6-03f2b4533eb5)
 
 
 6.숫자 시각화 필터
 
+특정 숫자 조건을 기반으로 데이터를 필터링한다. 예를 들어, 특정 판매량 이상의 데이터만을 선택할 수 있다.
+
+속성 >> 측정항목 >> 측정항목 v 
+
+![Google_Studio_Table16](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/1737bf26-7be4-42c9-bd6e-dd44fe9af53c)
+
+숫자 값을 기준으로 데이터를 필터링하는 숫자 시각화 필터의 인터페이스
 
 
 7.날짜 시각화 필터
 
+특정 날짜 조건을 기반으로 데이터를 필터링한다 여기에서는 2018년까지의 데이터 중에서 분기별 매출액을 나누어 보는 예제를 확인할 수 있다.
 
+이러한 슬라이더와 필터 도구들은 사용자가 원하는 데이터를 더욱 쉽게 찾고, 분석 결과를 더욱 효과적으로 전달하는 데 큰 도움을 준다다
+
+속성 >> 기본기간 >> 맞춤 >> 기간선택
+
+해당 자료는 2018년까지 자료가 있으므로 분기별로 매출액을 나눠보겠습니다.
+
+![Google_Studio_Table17](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9f2c41cb-b334-4a08-8438-e0e3ab838968)
+
+사용자가 특정 날짜 범위를 선택하여 데이터를 필터링할 수 있도록 도와주는 날짜 시각화 필터의 인터페이스이다
+
+이러한 이미지들은 Google Studio의 다양한 필터와 슬라이더 도구를 시각적으로 이해하는 데 도움을 준다.
 
 
 </div>
 
-<div id="case-study">
+<div id="custom-calculation">
 
 ## 6. 사례 연구
 

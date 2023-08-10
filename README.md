@@ -3,12 +3,33 @@
 
 안녕하세요 여러분! 오늘은 구글 스튜디오를 이용하여 데이터 시각화를 연습해보는 시간을 갖도록 할게요. 시작하기 앞서, 준비된 데이터 파일 이름은 Data.csv이며, 이 파일은 아래와 같은 열을 포함하고 있습니다
 
+
+
+<!-- 목차 -->
+<ol>
+    <li><a href="#intro">구글 스튜디오</a></li>
+    <li><a href="#table">테이블</a></li>
+    <li><a href="#data-aggregation">데이터 집계</a></li>
+    <li><a href="#pivot-and-card">피벗 테이블 및 카드 시각화</a></li>
+    <li><a href="#slider-and-filter">슬라이더 및 시각화 필터</a></li>
+    <li><a href="#custom-calculation">맞춤 계산</a></li>
+    <li><a href="#case-study">사례 연구</a></li>
+    <li><a href="#time-series-graph">시계열 그래프</a></li>
+    <li><a href="#other-visual">기타 시각화</a></li>
+    <li><a href="#dashboard">대화형 대시보드 게시 및 공유</a></li>
+    <li><a href="#case-study2">사례 연구2</a></li>
+    <li><a href="#conclusion">결론</a></li>
+</ol>
+
+<!-- 각 섹션 -->
+<div id="intro">
+
 ## 1. 구글 스튜디오
 
-1)구글 스프레드시트 데이터 로드
+### 1) 구글 스프레드시트 데이터 로드
 우선, 구글 스프레드시트에 Data.csv 파일을 업로드 한다. 파일 > 파일 가져오기를 통해 데이터를 로드할 수 있다
 
-## 2) 구글 데이터 스튜디오 연결
+### 2) 구글 데이터 스튜디오 연결
 * 구글 데이터 스튜디오에 접속하여 '새 보고서'를 클릭하면 됩니다
 * 데이터 추가 > 구글 스프레드시트를 선택하시고, 방금 업로드한 Data.csv 파일을 선택하여 연결
 * 이렇게 하면 구글 데이터 스튜디오와 스프레드시트의 연결이 완료
@@ -17,8 +38,9 @@ Data.csv는 열은 다음과 같다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/e510eaa7-4984-4518-9c76-ce0a862f0dcc)
 
+</div>
 
-
+<div id="table">
 
 ## 2. 테이블
 
@@ -84,11 +106,15 @@ Data.csv는 열은 다음과 같다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8800c56f-6b67-4d7a-a743-844d1ab84830)
 
-
+</div>
 
 ### 3. 집계 방법
 
+집계는 데이터를 분석할 때 사용하는 기본적인 방법입니다. 여러분이 가지고 있는 데이터를 적절하게 분석하고 시각화하기 위해서는 다양한 집계 방법을 사용할 수 있습니다. 본 포스팅에서는 Google Studio의 기본적인 집계 방법에 대해 소개하겠습니다.
+
 1번째 테이블
+
+이 테이블에서는 제조사별 총 매출을 살펴볼 수 있습니다.
 
 * 측정기준 : Manufactors
 * 측정항목 : Salses
@@ -100,9 +126,12 @@ Data.csv는 열은 다음과 같다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/336dc3f9-b910-4781-9969-f1b0c64496bd)
 
+이 이미지는 제조사별 매출을 다양한 측정항목으로 집계한 결과를 나타냅니다.
 
 
 2번테이블
+
+제품의 하위 카테고리와 제품 이름에 대한 집계 방법을 설명하고 있습니다.
 
 * 측정기준 : Product sub category
 * 측정항목 : Product Name
@@ -112,11 +141,11 @@ Data.csv는 열은 다음과 같다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/865e1a7d-ba65-47f2-b526-b741f7520bb4)
 
+이 이미지는 제품 하위 카테고리별 제품 이름의 거래 횟수와 제품 수를 집계한 결과를 나타냅니다.
 
 2) 실무 집계 연습
 
-
-
+위 배운 방식으로 실무에서 쓰일 수 있는 테이블을 시각화 해보겠습니다.
 
 1. 제품 이름별 총 매출을 보여주는 새 테이블 만들기
 
@@ -180,7 +209,7 @@ Data.csv는 열은 다음과 같다.
 
 3) 비교 계산
 
-
+이 섹션에서는 데이터의 특정 값을 서로 비교하여 통계적 또는 분석적 정보를 얻습니다. 그래프에 표시된 값들은 서로의 비교를 통해 특정 패턴이나 추세를 파악하는 데 도움을 줍니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/48589610-e299-4a5d-a2ac-5a6f28ded3c1)
 
@@ -188,35 +217,53 @@ Data.csv는 열은 다음과 같다.
 
 4) 누계 계산
 
-총계 백분율
+누계는 데이터를 순서대로 더하는 방식으로, 특정 기간 동안의 누적된 값을 보여줍니다.
+
+* 총계 백분율:
+
+전체 중 특정 항목의 비율을 표시합니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/69f6fdd6-0258-434d-b805-289af72c03b4)
 
-누계 백분율
+* 누계 백분율:
+
+누적된 백분율 값을 표시합니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/826630e7-0052-4b50-a49e-e2463f0f1a66)
 
-하위 범주 누적 백분율
+* 하위 범주 누적 백분율:
+  
+하위 카테고리에 따른 누적 백분율 값을 보여줍니다.
 
 ![Google_Studio_Table5](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/6901b13c-1770-42b9-9690-d1ae8bd2b702)
 
-최솟값 비교
+* 최솟값 비교
+
+데이터 집합에서 최솟값을 표시합니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/edc9befc-fc2a-488e-a563-01bc5eab5655)
 
-최댓값 비교
+* 최댓값 비교:
+ 
+데이터 집합에서 최댓값을 표시합니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/d1f7183b-5a92-433f-a791-ec397326c533)
 
-집계 비교
+* 집계 비교:
+
+전체 집계된 값들의 비교를 보여줍니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9408ce4a-dd56-457c-9c45-df1cfb808930)
 
-평균 비교
+* 평균 비교:
+
+전체 집계된 값들의 비교를 보여줍니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/fdd0516c-80b5-48fb-91a4-ebd0fdc3bb8f)
 
-델타 비교
+* 델타 비교: 
+
+데이터의 변화량이나 차이를 나타내기 위해 사용됩니다.
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0256b15f-f418-4db8-9b92-6116ef50d97d)
 
@@ -225,17 +272,25 @@ Data.csv는 열은 다음과 같다.
 
 5) 드릴 다운 ( 교차 )
 
-Region >> County >> City
+드릴 다운은 데이터를 상세하게 조사하기 위한 분석 기법입니다. 사용자는 더 상세한 수준의 데이터를 살펴볼 수 있습니다.
+
+* Region >> County >> City:
+
+지역, 국가, 도시 순으로 데이터의 세부 정보를 확인할 수 있습니다.
 
 ![Google_Studio_Table6](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/2d3b3fcb-0765-47ef-82d6-8376a927bdaf)
 
-Asia >> South Korea >> Seoul
+* Asia >> South Korea >> Seoul: 
+
+아시아 지역 내에서 대한민국의 서울까지의 데이터를 상세하게 살펴봅니다.
 
 ![Google_Studio_Table7](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/1487db46-33a1-482a-85de-cd402eb9d371)
 
 
 
 6) 날짜 작업 ( 교차 )
+
+이 섹션에서는 연도별, 분기별, 월별 및 요일별로 데이터를 정렬하고 분석합니다. 이러한 분석을 통해 시간에 따른 추세나 패턴을 파악할 수 있습니다.
 
 연도별, 분기별 정렬
 

@@ -49,7 +49,6 @@ Data.csv는 열은 다음과 같다.
 * 오른쪽 '데이터' 탭을 통해 원하는 열을 테이블에 추가
 
 ![Google_Studio_Table1](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8d08d7d5-73bd-4266-95b0-2541e9f7e649)
-
   
 2) 표 서식 지정 및 정렬
 * 테이블의 각 열의 제목을 클릭하면 정렬 옵션을 볼 수 있다 원하는 방식대로 오름차순 또는 내림차순으로 정렬할 수 있다.
@@ -108,7 +107,9 @@ Data.csv는 열은 다음과 같다.
 
 </div>
 
-### 3. 집계 방법
+<div id="data-aggregation">
+
+### 3. 데이터 집계
 
 집계는 데이터를 분석할 때 사용하는 기본적인 방법입니다. 여러분이 가지고 있는 데이터를 적절하게 분석하고 시각화하기 위해서는 다양한 집계 방법을 사용할 수 있습니다. 본 포스팅에서는 Google Studio의 기본적인 집계 방법에 대해 소개하겠습니다.
 
@@ -297,6 +298,75 @@ Data.csv는 열은 다음과 같다.
 월, 요일별 정렬
 
 ![Google_Studio_Table8](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/021a1d5c-7b70-4adc-a7d7-d3fb409a2a04)
+
+</div>
+
+<div id="pivot-and-card">
+
+## 4. 피벗 테이블 및 카드 시각화
+
+
+</div>
+
+<div id="custom-calculation">
+
+## 5. 맞춤 계산
+
+
+
+</div>
+
+<div id="case-study">
+
+## 6. 사례 연구
+
+
+
+</div>
+
+<div id="time-series-graph">
+
+## 8. 시계열 그래프
+
+
+
+</div>
+
+<div id="other-visual">
+
+## 9. 기타 시각화
+
+
+
+</div>
+
+<div id="dashboard">
+
+## 10. 대화형 대시보드 게시 및 공유
+
+
+
+</div>
+
+<div id="case-study2">
+
+## 11. 사례 연구2
+
+
+
+</div>
+
+<div id="conclusion">
+
+## 12. 결론
+
+
+
+</div>
+
+
+
+
 
 
 

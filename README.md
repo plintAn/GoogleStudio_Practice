@@ -592,7 +592,111 @@ OutPut
 
 <div id="time-series-graph">
 
-## 8. 시계열 그래프
+## 8.시계열 그래프
+
+
+### 1.시계열 그래프 소개
+
+
+
+
+### 2.시계열 그래프 만들기
+
+시계열 그래프, 드릴 다운
+
+OutPut
+
+![Google_Studio_Table21](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/7b6a04d0-dbc9-4cc4-a24e-677dd8a203f8)
+
+세부 측정 기준:채널 추가
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/05194acd-68bb-4914-8c00-bdbdd34ac1f6)
+
+
+### 3.기간 변경
+
+측정 기준: 연도별, 연도별 분기, 연도별 월, 요일별 판매 시계열 그래프
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/990f2a3c-325d-46e4-ae40-f4b88e787628)
+
+
+### 4. 스타일과 서식
+
+#### 차트 >> 스타일 >> 시리즈 >> 참조선 추가
+
+##### 선1
+
+* 유형:상숫값
+* 값:1600000
+* Show label
+
+##### 선2
+
+* 유형:측정항목 >> Sales
+* 계산:평균값
+* 라벨:평균값
+* Snow label
+
+* 축 표시
+
+OutPut
+
+![Google_Studio_Table24](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/116119de-2529-4e47-9563-a6cf0b68a83a)
+
+
+### 5. 시계열 차트 옵션
+
+설정 >> 기본 기간 >> 맞춤
+
+기본기간:2018.1.1 ~ 2018.12.31
+비교기간:이전기간
+
+OutPut
+
+![Google_Studio_Table25](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/31006c1d-3a63-4ba9-83e2-e8b6e05b2500)
+
+
+### 6.영역 그래프
+
+차트 추가 >> 영역 차트 >> 설정
+
+측정기준:연도 분기
+세부 측정기준:Region
+측정항목:Sales
+
+스타일
+
+스택표시
+
+OutPut
+
+![Google_Studio_Table26](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8df29c12-c8ff-4c2b-be47-e466e76f4783)
+
+
+
+
+### 7.과제
+
+#### 1. 연도별 매출액
+
+#### 2. 연도별 매출현황
+
+#### 3. 요일별 매출
+
+#### 4. 아시아 지역 연월별 매출액
+
+#### 5. 각 채널에 대한 2018년 월별 매출을 표시하는 누적 영역 그래프. 필터를 사용하여 국가 변경
+
+
+### 8.과제 완료
+
+OutPut
+
+![Google_Studio_Table27](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/bdd9b9a5-6f5a-4874-9f84-a99188d7fd91)
 
 
 

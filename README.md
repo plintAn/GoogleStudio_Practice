@@ -1,4 +1,4 @@
-# 구글 스튜디오 연습
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/67cb94bc-d7bd-4256-a85f-4b122d713780)# 구글 스튜디오 연습
 
 
 안녕하세요 여러분! 오늘은 구글 스튜디오를 이용하여 데이터 시각화를 연습해보는 시간을 갖도록 할게요. 시작하기 앞서, 준비된 데이터 파일 이름은 Data.csv이며, 이 파일은 아래와 같은 열을 포함하고 있습니다
@@ -705,6 +705,107 @@ OutPut
 <div id="other-visual">
 
 ## 9. 기타 시각화
+
+### 1. 다른 시각화 소개
+
+* 데이터 스튜디오 내에서 사용 가능한 다양한 시각화 방법에 대한 소개
+
+### 2. 열 및 막대 그래프
+
+* 값들 사이의 크기 차이를 비교하기 위한 방법
+* 항목 간의 크기 차이 이해하기
+
+* 측정기준:Manufacturer, Product Category, Product Sub Category
+* 시부 측정기준: Region
+* 측정항목: Sales
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8890fab0-6d47-4d6d-af30-e620f4d5cbb5)
+
+
+
+### 3. 파이 그래프
+
+* 전체에 대한 기여 및 백분율 확인
+* 올바른 사용 방법 및 오용되는 경우 알아보기
+
+#### 설정
+
+* 측정기준:Manufacturer
+* 측정항목: Sales
+
+#### 스타일
+
+* 원형차트:5개 조각
+* 색상표시:원형 차트 순서
+* 라벨>슬라이스 라벨 > 비율
+* 범례:상단
+
+![Google_Studio_Table28](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/71b48970-2099-48a7-b8c8-b2372a936b01)
+
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/135fc3f7-ee36-498a-907a-995294e8118f)
+
+
+### 4. 지리적 분석
+
+* 지도를 사용한 시각화 방법 탐색
+* 국가, 도시 등의 지리적 데이터 매핑 방법 소개
+
+### 지역 차트
+
+#### 설정
+
+* 측정기준:Country
+* 측정항목: Sales
+* 측정항목 슬라이더
+
+#### 스타일
+
+* 지역차트:최대, 중간, 최소 값 색상 지정
+* 범례 표시
+
+전세계, 유럽, 아시아 
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/158c555d-0d29-44c5-948d-dd81b8a6e214)
+
+### 버블 차트
+
+#### 설정
+
+* 위치:Country
+* 크기: Sales
+
+OutPut
+
+![Google_Studio_Table30](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/7e488989-c35a-4f8b-9dc1-f9dd6af96c50)
+
+
+### 5. 트리맵 그래프
+
+* 사각형을 사용하여 데이터 크기 표현하기
+* 어떤 값이 크고 어떤 값이 작은지 확인하기
+
+
+
+### 6. 산점도 그래프
+
+* 상관관계 분석을 위한 시각화
+* x축과 y축을 사용한 변수 간의 관계 파악
+* 버블 도표를 이용하여 세 번째 변수 표현하기
+
+### 7. 맞춤형 시각화
+
+* 데이터 스튜디오를 위한 사용자 정의 시각화 방법
+* 데이터 가져오기, 형식화 및 스타일링 방법 소개
+
+
+
 
 
 

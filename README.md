@@ -1,4 +1,4 @@
-![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/67cb94bc-d7bd-4256-a85f-4b122d713780)# 구글 스튜디오 연습
+# 구글 스튜디오 연습
 
 
 안녕하세요 여러분! 오늘은 구글 스튜디오를 이용하여 데이터 시각화를 연습해보는 시간을 갖도록 할게요. 시작하기 앞서, 준비된 데이터 파일 이름은 Data.csv이며, 이 파일은 아래와 같은 열을 포함하고 있습니다
@@ -791,6 +791,18 @@ OutPut
 * 사각형을 사용하여 데이터 크기 표현하기
 * 어떤 값이 크고 어떤 값이 작은지 확인하기
 
+#### 설정
+
+* 측정기준:Country, City
+* 측정항목: Sales
+
+#### 스타일
+
+트리맵: 최댓값 색상(브라운), 최솟값 색상(오렌지), 중간값 색상(회색)
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0f18254c-d28a-4550-8dd7-0753988ad68f)
 
 
 ### 6. 산점도 그래프
@@ -799,14 +811,36 @@ OutPut
 * x축과 y축을 사용한 변수 간의 관계 파악
 * 버블 도표를 이용하여 세 번째 변수 표현하기
 
+#### 설정
+
+* 측정기준:Product Category
+* 측정항목(X축): Sales
+* 측정항목(X축): Profit
+* 풍선 크기 측정항목: Order Qty
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/e7460905-f899-4fd1-a126-e3a270a196b3)
+
+
 ### 7. 맞춤형 시각화
 
 * 데이터 스튜디오를 위한 사용자 정의 시각화 방법
 * 데이터 가져오기, 형식화 및 스타일링 방법 소개
 
+커뮤니티 시각화 및 구성요소 >> 더보기 >> 게이지
+
+#### 설정
+Metric:Sales, Profit
+#### 스타일
+Green Selection : 70, 80
+Yellow Selection : 50, 70
+Red Selection : 0, 50
 
 
+OutPut
 
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c14beb8d-65a0-4cdc-8551-1fd6f4bd16c1)
 
 
 </div>

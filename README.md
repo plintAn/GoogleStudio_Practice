@@ -3,7 +3,19 @@
 
 안녕하세요 여러분! 오늘은 구글 스튜디오를 이용하여 데이터 시각화를 연습해보는 시간을 갖도록 할게요. 시작하기 앞서, 준비된 데이터 파일 이름은 Data.csv이며, 이 파일은 아래와 같은 열을 포함하고 있습니다
 
+## 과정에서 배운 주요 기능
 
+* Google 스프레드시트와 데이터 스튜디오 연동: 데이터 로드 및 연결 방법 학습.
+* 데이터 시각화 도구 활용: 피벗 테이블, 시계열 그래프, 다양한 차트와 슬라이서 등의 활용 방법 습득.
+* 사용자 지정 계산 및 집계: 복잡한 데이터 분석과 집계 방법의 활용 방법 학습.
+  
+## 이를 활용할 수 있는 예시
+
+* 매출 분석: Google 스프레드시트에 기록된 월별 매출 데이터를 데이터 스튜디오로 불러와 시계열 그래프를 이용해 월별 매출 추이를 한눈에 확인 가능.
+* 재고 관리: 피벗 테이블을 활용하여 제품별 재고 수량을 정리하고, 특정 기준에 따라 재고가 부족한 제품을 즉시 확인.
+* 예산 계획 및 모니터링: 사용자 지정 계산을 활용하여 각 부서별 사용 예산과 실제 사용 금액의 차이를 분석.
+* 마케팅 캠페인 분석: 다양한 시각화 도구를 이용해 광고 캠페인별 ROI(Return on Investment)를 비교하여 가장 효과적인 캠페인 전략 파악.
+*고객 행동 분석: 구글 애널리틱스 데이터를 활용하여 웹사이트 내 사용자의 행동 패턴을 분석하고, 개선점 도출.
 
 <!-- 목차 -->
 <ol>
@@ -27,14 +39,18 @@
 ## 1. 구글 스튜디오
 
 ### 1) 구글 스프레드시트 데이터 로드
+
 우선, 구글 스프레드시트에 Data.csv 파일을 업로드 한다. 파일 > 파일 가져오기를 통해 데이터를 로드할 수 있다
 
 ### 2) 구글 데이터 스튜디오 연결
+
 * 구글 데이터 스튜디오에 접속하여 '새 보고서'를 클릭하면 됩니다
 * 데이터 추가 > 구글 스프레드시트를 선택하시고, 방금 업로드한 Data.csv 파일을 선택하여 연결
 * 이렇게 하면 구글 데이터 스튜디오와 스프레드시트의 연결이 완료
 
 Data.csv는 열은 다음과 같다.
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/e510eaa7-4984-4518-9c76-ce0a862f0dcc)
 
@@ -45,24 +61,36 @@ Data.csv는 열은 다음과 같다.
 ## 2. 테이블
 
 ### 1) 테이블 만들기
+
 * 보고서 페이지 내에서 '테이블' 위젯을 선택하여 드래그&드롭으로 페이지에 추가
 * 오른쪽 '데이터' 탭을 통해 원하는 열을 테이블에 추가
+
+OutPut
 
 ![Google_Studio_Table1](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8d08d7d5-73bd-4266-95b0-2541e9f7e649)
   
 ### 2) 표 서식 지정 및 정렬
+
 * 테이블의 각 열의 제목을 클릭하면 정렬 옵션을 볼 수 있다 원하는 방식대로 오름차순 또는 내림차순으로 정렬할 수 있다.
+
+OutPut
 
 ![Google_Studio_Table2](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/2fe9c3f9-dcf1-4b21-8fd3-cde9186b3070)
 
 
 ### 3) 다중 서식 조치(교차 포함)
+
 * 테이블에서 다중 서식을 적용하려면, 원하는 셀이나 열을 선택 후 서식 메뉴에서 '다중 서식' 옵션을 선택합니다. 교차되는 부분에 대한 서식도 동시에 조절할 수 있습니다.
+
+OutPut
 
   ![Google_Studio_Table3](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/ecd02f73-1627-4f99-9d10-6eb839c57d9d)
 
 ### 4) 조건부 서식
+
 * 조건부 서식을 통해 특정 조건에 맞는 데이터에 대해 다른 스타일을 적용할 수 있습니다. 예를 들면, 수익이 특정 금액 이상일 때 셀의 배경색을 변경하는 것과 같은 작업입니다.
+
+OutPut
 
 ![Google_Studio_Table4](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/e0e3fbeb-91b8-4934-8975-53546210931c)
 
@@ -72,11 +100,15 @@ Data.csv는 열은 다음과 같다.
 #### 1.매출이 가장 높은 제조업체는 어디입니까?
 - 답변 - Fabrikam – 12,054,281
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9838ad10-3619-4ac6-b9e5-2cc33d99ca9f)
 
   
 #### 2.이익 값이 가장 낮은 제품 범주는 무엇입니까?
 - 답변 - 오디오 – 577,270
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/7ee06038-7d78-4784-abfc-72c2cdf9d9cb)
 
@@ -84,11 +116,15 @@ Data.csv는 열은 다음과 같다.
 #### 3.어느 제조업체가 가장 높은 이익을 얻었습니까?
 - 답변 - Fabrikam – 7,158,977
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c0dff7be-6080-4e88-9a57-96b3eee02f0b)
 
   
 #### 4.판매 비용이 가장 높은 채널은 무엇입니까?
 - 답변 - 매장 – 13,671,368
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/e7b6b34b-5b74-430a-aeec-17630cda42dc)
 
@@ -96,12 +132,15 @@ Data.csv는 열은 다음과 같다.
 #### 5.매출이 가장 높은 프로모션 이름은 무엇입니까?
 - 답변 - 할인 없음 – 18,329,360
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/b5fd68fb-7e95-4424-a577-05deb23b9d10)
 
   
 #### 6.이익이 가장 높은 제품 하위 범주는 무엇입니까?
 - 답변 - 캠코더 – 4,972,853
 
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8800c56f-6b67-4d7a-a743-844d1ab84830)
 
@@ -113,7 +152,7 @@ Data.csv는 열은 다음과 같다.
 
 집계는 데이터를 분석할 때 사용하는 기본적인 방법입니다. 여러분이 가지고 있는 데이터를 적절하게 분석하고 시각화하기 위해서는 다양한 집계 방법을 사용할 수 있습니다. 본 포스팅에서는 Google Studio의 기본적인 집계 방법에 대해 소개하겠습니다.
 
-### 1번째 테이블
+### 1번 테이블
 
 이 테이블에서는 제조사별 총 매출을 살펴볼 수 있습니다.
 
@@ -125,12 +164,14 @@ Data.csv는 열은 다음과 같다.
 * MIN : Lowest Sales
 * MAX : Highest Sales
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/336dc3f9-b910-4781-9969-f1b0c64496bd)
 
 이 이미지는 제조사별 매출을 다양한 측정항목으로 집계한 결과를 나타냅니다.
 
 
-### 2번테이블
+### 2번 테이블
 
 제품의 하위 카테고리와 제품 이름에 대한 집계 방법을 설명하고 있습니다.
 
@@ -139,6 +180,8 @@ Data.csv는 열은 다음과 같다.
 
 * CT : No of Trans
 * CTS : No of Products
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/865e1a7d-ba65-47f2-b526-b741f7520bb4)
 
@@ -154,11 +197,15 @@ Data.csv는 열은 다음과 같다.
 
 - 답변 - Contoso 프로젝터 1080 P X980 검정 – 445,115
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/a1541996-7a73-4658-86a0-99ddf81500b6)
 
 #### 2. 가장 낮은 매출에서 가장 높은 매출 순으로 표를 정렬합니다. 판매량이 가장 적은 제품은 무엇입니까?
 
 - Answer - SV USB 데이터 케이블 E 600 그레이 - 46
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c84b6d11-b183-4d57-96dc-a28143269899)
 
@@ -166,6 +213,8 @@ Data.csv는 열은 다음과 같다.
 #### 3. 가장 많은 도시에서 판매되는 제품은 무엇입니까?
 
 - 답변 - Litware 홈 시어터 시스템 5.1 채널 M515 브라운 – 22
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/a95f6961-6359-4f77-b5b2-67ee8c259475)
 
@@ -186,6 +235,8 @@ Data.csv는 열은 다음과 같다.
 
 - 답변 - 미국 - 78312
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/91d02bb3-3df1-4d22-9919-42a41ac28cbd)
 
 
@@ -203,6 +254,8 @@ Data.csv는 열은 다음과 같다.
 
 - 답변 - 베이징 - 924
   
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/fc0a0e27-7f60-48e2-97a8-b1f535f17555)
 
 
@@ -211,6 +264,8 @@ Data.csv는 열은 다음과 같다.
 ### 3) 비교 계산
 
 이 섹션에서는 데이터의 특정 값을 서로 비교하여 통계적 또는 분석적 정보를 얻습니다. 그래프에 표시된 값들은 서로의 비교를 통해 특정 패턴이나 추세를 파악하는 데 도움을 줍니다.
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/48589610-e299-4a5d-a2ac-5a6f28ded3c1)
 
@@ -224,11 +279,15 @@ Data.csv는 열은 다음과 같다.
 
 전체 중 특정 항목의 비율을 표시합니다.
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/69f6fdd6-0258-434d-b805-289af72c03b4)
 
 * 누계 백분율:
 
 누적된 백분율 값을 표시합니다.
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/826630e7-0052-4b50-a49e-e2463f0f1a66)
 
@@ -236,11 +295,15 @@ Data.csv는 열은 다음과 같다.
   
 하위 카테고리에 따른 누적 백분율 값을 보여줍니다.
 
+OutPut
+
 ![Google_Studio_Table5](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/6901b13c-1770-42b9-9690-d1ae8bd2b702)
 
 * 최솟값 비교
 
 데이터 집합에서 최솟값을 표시합니다.
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/edc9befc-fc2a-488e-a563-01bc5eab5655)
 
@@ -248,11 +311,15 @@ Data.csv는 열은 다음과 같다.
  
 데이터 집합에서 최댓값을 표시합니다.
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/d1f7183b-5a92-433f-a791-ec397326c533)
 
 * 집계 비교:
 
 전체 집계된 값들의 비교를 보여줍니다.
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9408ce4a-dd56-457c-9c45-df1cfb808930)
 
@@ -260,11 +327,15 @@ Data.csv는 열은 다음과 같다.
 
 전체 집계된 값들의 비교를 보여줍니다.
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/fdd0516c-80b5-48fb-91a4-ebd0fdc3bb8f)
 
 * 델타 비교: 
 
 데이터의 변화량이나 차이를 나타내기 위해 사용됩니다.
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0256b15f-f418-4db8-9b92-6116ef50d97d)
 
@@ -279,11 +350,15 @@ Data.csv는 열은 다음과 같다.
 
 지역, 국가, 도시 순으로 데이터의 세부 정보를 확인할 수 있습니다.
 
+OutPut
+
 ![Google_Studio_Table6](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/2d3b3fcb-0765-47ef-82d6-8376a927bdaf)
 
 * Asia >> South Korea >> Seoul: 
 
 아시아 지역 내에서 대한민국의 서울까지의 데이터를 상세하게 살펴봅니다.
+
+OutPut
 
 ![Google_Studio_Table7](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/1487db46-33a1-482a-85de-cd402eb9d371)
 
@@ -296,6 +371,8 @@ Data.csv는 열은 다음과 같다.
 연도별, 분기별 정렬
 
 월, 요일별 정렬
+
+OutPut
 
 ![Google_Studio_Table8](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/021a1d5c-7b70-4adc-a7d7-d3fb409a2a04)
 
@@ -312,17 +389,23 @@ Data.csv는 열은 다음과 같다.
 
 ### 2) 피벗 테이블 만들기
 
+OutPut
+
 ![Google_Studio_Table11](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/c713d30c-c5be-43a9-b538-c9baccfde474)
 
 이 이미지는 피벗 테이블의 기본 구조를 보여줍니다. 행과 열을 기준으로 데이터가 어떻게 분류되고 집계되는지 한눈에 확인할 수 있
 
 ### 3) 비교 계산
 
+OutPut
+
 ![Google_Studio_Table9](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/99cf3474-ae6b-4070-a7c0-2a2d874a8ea7)
 
 비교 계산은 데이터 간의 차이나 증감을 시각적으로 표현하여 데이터의 변화나 트렌드를 파악하는 데 도움을 줄 수 있다.
 
 ### 4) 카드 시각화
+
+OutPut
 
 ![Google_Studio_Table10](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/dd8b7ad9-c018-432d-8edc-c91b3440c2bc)
 
@@ -333,18 +416,14 @@ Data.csv는 열은 다음과 같다.
 다음 카드 시각화 만들기
 
 * 매출액 합계
-
 * 평균 매출
-
 * 최고 판매
-
 * 최저가 판매
-
 * 판매된 제품 수
-
 * 제품이 판매된 국가 수
-
 * 제품 범주 및 채널별 이익
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/eb25580f-7e92-4cf3-858c-7dae4c3d0037)
 
@@ -360,6 +439,8 @@ Data.csv는 열은 다음과 같다.
 
 슬라이더와 시각화 필터는 Google Studio의 대시보드에서 데이터를 동적으로 탐색하고, 특정 조건 또는 값 범위에 따라 시각화를 업데이트하는 데 사용되는 컨트롤입니다. 이를 사용하면 사용자는 대시보드 내에서 원하는 데이터를 쉽게 선택하거나 필터링할 수 있습니다.
 
+OutPut
+
 ![Google_Studio_Table12](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/753a4b27-15cf-4c7f-bedb-7d6d4c19d1db)
 
 위 이미지는 슬라이더와 시각화 필터의 기본 인터페이스를 보여주는데, 이 도구들은 Google Studio의 대시보드에서 데이터를 동적으로 탐색하고 조작하는 데 사용된다
@@ -369,6 +450,8 @@ Data.csv는 열은 다음과 같다.
 텍스트 슬라이더는 고정 크기 목록, 드롭 다운, 고급 필터와 같은 텍스트 기반의 값에 따라 데이터를 필터링하는 데 사용됩니다.
 
 컨트롤 추가 >> 고정 크기 목록, 드롭 다운, 고급 필터 추가
+
+OutPut
 
 ![Google_Studio_Table13](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/db69f52c-4e5d-4bc1-96fd-eae50685360f)
 
@@ -381,6 +464,8 @@ Data.csv는 열은 다음과 같다.
 
 컨트롤 추가 >> 슬라이더 추가
 
+OutPut
+
 ![Google_Studio_Table14](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/d1ac907d-98cf-4a3f-aad5-38ed09147870)
 
 숫자 슬라이더 예시 이미지입니다. 사용자는 이 슬라이더를 조작하여 원하는 숫자 범위의 데이터를 쉽게 선택할 수 있다.
@@ -389,6 +474,8 @@ Data.csv는 열은 다음과 같다.
 ### 4.날짜 슬라이더
 
 날짜 슬라이더는 특정 날짜 범위에 따라 데이터를 필터링하는 데 사용된다. 특히 특정 연도나 분기의 데이터만을 보고 싶을 때 사용할 수 있다.
+
+OutPut
 
 ![Google_Studio_Table15](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/cfb462f3-8732-4c44-abbf-3b724a8fe219)
 
@@ -401,9 +488,13 @@ Data.csv는 열은 다음과 같다.
 
 I 또는 O로 시작하는 지역 이름 필터
 
+OutPut
+
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9d455d8b-57af-4e12-8aad-1481c67b3db0)
 
-결과
+OutPut
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/ebbe0051-5845-4d88-abc6-03f2b4533eb5)
 
@@ -413,6 +504,8 @@ I 또는 O로 시작하는 지역 이름 필터
 특정 숫자 조건을 기반으로 데이터를 필터링한다. 예를 들어, 특정 판매량 이상의 데이터만을 선택할 수 있다.
 
 속성 >> 측정항목 >> 측정항목 v 
+
+OutPut
 
 ![Google_Studio_Table16](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/1737bf26-7be4-42c9-bd6e-dd44fe9af53c)
 
@@ -428,6 +521,8 @@ I 또는 O로 시작하는 지역 이름 필터
 속성 >> 기본기간 >> 맞춤 >> 기간선택
 
 해당 자료는 2018년까지 자료가 있으므로 분기별로 매출액을 나눠보겠습니다.
+
+OutPut
 
 ![Google_Studio_Table17](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/9f2c41cb-b334-4a08-8438-e0e3ab838968)
 
@@ -448,6 +543,8 @@ I 또는 O로 시작하는 지역 이름 필터
 
 ### 2. 계산 만들기
 
+OutPut
+
 ![Google_Studio_Table19](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/cd2f05e2-9f67-4cc2-8bad-9dc5d2c9911d)
 
 
@@ -467,6 +564,8 @@ OutPut
 * 제품당 평균 매출 - Sum(Sales)/Count_Distinct(Products Name)
 
 ### 4. 실습 완료
+
+OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/8315311b-afdc-4f80-a929-36d58a370c0b)
 
@@ -555,7 +654,7 @@ OutPut
 
 ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/cb716105-7e2f-48e9-acb8-47024537d904)
 
-#### 차트 비교
+### 차트 비교
 
 * 차트 추가 >> 테이블 생성
 
@@ -585,6 +684,8 @@ OutPut
 
 그 후 data <==> 데이터 추출 을 스왑하면서 이용할 수 있다.
 
+OutPut
+
 ![Google_Studio_Table21](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0774e8bb-80e3-4ea8-a9ce-282d801a635e)
 
 
@@ -597,7 +698,7 @@ OutPut
 
 ### 1.시계열 그래프 소개
 
-
+이 섹션에서는 시계열 그래프를 중점적으로 다룬다. 시계열 그래프는 시간의 흐름에 따른 데이터의 변화를 시각적으로 나타내주는 도구로, 데이터의 추세를 파악하거나 미래의 변화를 예측하는 데 유용하게 사용된다.
 
 
 ### 2.시계열 그래프 만들기
@@ -867,15 +968,15 @@ OutPut
 
 · 판매된 제품 수(제품명)
 
-연도 및 분기별 매출을 표시하는 선 그래프
+- 연도 및 분기별 매출을 표시하는 선 그래프
 
-제품 범주별 매출을 표시하는 막대 그래프
+- 제품 범주별 매출을 표시하는 막대 그래프
 
-상위 10개 국가 판매 열 그래프
+- 상위 10개 국가 판매 열 그래프
 
-채널별 이익 – 도넛형 그래프 – 백분율 데이터 레이블 추가
+- 채널별 이익 – 도넛형 그래프 – 백분율 데이터 레이블 추가
 
-필터로서의 지역
+- 필터로서의 지역
 
 
 
@@ -975,10 +1076,50 @@ OutPut
 
 경로:Looker Studio >> 만들기 >> 탐색기 >> 데이터 소스 선택 >> 필터 적용
 
+OutPut
+
  ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0a8e199f-9a8e-4e9a-a717-678b3eb7f62b)
 
 
-### 5. 구글 애널리틱스
+### 5. 구글 애널리틱스 & 구글 스튜디오 연동하여 활용용
+
+경로: 
+
+Looker Studio Home >> 데이터 소스 >> Google 애널리틱스 >> Demo Account >> GA4-Google Merch Shop 추가
+
+
+#### 1.총 조회수 스코어 카드
+
+* 측정항목:총 조회수
+
+#### 2.세션수 스코어 카드
+
+* 측정항목:세션수
+
+#### 3.세션 수 시계열 차트
+
+* 측정기준:날짜
+* 측정항목:세션수
+
+#### 4.세션 소스 컨트롤
+
+컨트톨 추가 >> 고정 크기 목록
+
+* 컨트롤 필드: 세션 소스
+
+#### 5.카테고리별 세션수 원형 차트
+
+* 측정기준:기기 카테고리
+* 측정항목:세션수
+
+#### 6.페이지 제목 별 세션수 바 차트
+
+* 측정기준:페이지 제목
+* 측정항목:세션수
+
+OutPut
+
+![Google_Studio_Table32](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/d78902c5-c989-4204-9000-8ca6c2044080)
 
 
 </div>
@@ -987,6 +1128,11 @@ OutPut
 
 ## 12. 결론
 
+이 과정은 Google 스프레드시트와 데이터 스튜디오의 기능을 깊게 파헤쳐 본 결과, 데이터를 효과적으로 로드, 분석, 시각화하는 방법에 대한 포괄적인 이해를 도와준다. 핵심적으로, 이 과정을 통해 우리는 데이터를 명확하게 표현하는 데 필요한 테이블 작성, 집계 방법, 피벗 테이블 및 다양한 시각화 도구 활용 방법을 알 수 있었다.
+
+더불어, 사용자 지정 계산을 활용한 복잡한 데이터 분석부터, 대화형 대시보드의 제작 및 공유 방법을 다루었는데 특히, 실제 사례 연구를 통한 접근은 이론적 지식을 실제 활용하는 능력을 키울 수 있게 하는 혁신적인 기술이었다고 평가한다.
+
+마무리로, 이 과정의 지식은 데이터 중심의 현대 사회에서 매우 중요하며, 효과적인 데이터 분석과 시각화 능력은 우리에게 의사결정에서의 큰 경쟁력을 제공할 수 있다. 기업이나 조직에서 발생하는 다양한 문제 해결 또는 전략 설정 시, 이 과정에서 얻은 지식을 바탕으로 데이터를 통한 명확한 해답을 제시하여 도움을 줄 수 있을 것이다.
 
 
 </div>

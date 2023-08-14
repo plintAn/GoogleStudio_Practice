@@ -1109,11 +1109,15 @@ OutPut
  ![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/0a8e199f-9a8e-4e9a-a717-678b3eb7f62b)
 
 
-### 5. 구글 애널리틱스 & 구글 스튜디오 연동하여 활용용
+### 5. 구글 애널리틱스 & 구글 스튜디오 연동하여 활용
 
 경로: 
 
 Looker Studio Home >> 데이터 소스 >> Google 애널리틱스 >> Demo Account >> GA4-Google Merch Shop 추가
+
+OutPut
+
+![image](https://github.com/plintAn/GoogleStudio_Practice/assets/124107186/51803c20-8fe1-4fdc-808c-4b3788ed5fc1)
 
 
 #### 1.총 조회수 스코어 카드
